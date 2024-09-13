@@ -1,0 +1,349 @@
+
+.container-header {
+  background-image: url(fundo1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  } 
+  
+  .text-header{
+    width: 60%;
+    text-align: center;
+    
+  }
+  
+  .text-header h1{
+    font-size: 7vmin;
+    font-family: "horizon", sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #149CEA ;
+    padding-top: 100px;
+  }
+  
+  .text-header p{
+    margin-top: 60px;
+    font-size: 31px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .button {
+    margin-top: 30px;
+    width: 15em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "horizon", sans-serif;
+  }
+  
+  .button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: transparent;
+    transition: 0.5s;
+  }
+  
+  .button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  .button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+  
+  
+  /* estilizção da sec1 */
+  
+  
+  .sec1{
+    min-height: 100vh;
+  }
+  
+  .sec1 h2{
+    text-align: center;
+    margin-top: 66px;
+    font-size: 5vmin;
+    color: var(--primary-color);
+    font-family: "horizon", sans-serif;
+    
+    
+  }
+  
+  .sec1 hr {
+    width: 50%;
+    height: 10px;
+    border: 4px solid #34B5DF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  
+  .icon{
+    width: 90px;
+    margin: auto;
+    
+  }
+  
+  .sec1 .cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  
+  .sec1 .cards .card{
+    width: 33%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card h3{
+    font-size: 25px;
+    font-family: "horizon", sans-serif;
+    margin-top: 11px;
+    margin-bottom: 20px;
+  }
+  
+  .card p{
+    font-size: 20px;
+    
+  }
+  
+  .sec1 button{
+    display: block;
+    padding: 15px;
+    font-family: 'horizon', sans-serif;
+    font-size: 20px;
+    background-color: #003060;
+    color: #34B5DF;
+    border-radius: 9px;
+    margin: auto;
+    margin-bottom: 66px;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  
+  }
+
+
+
+  /* estilização da sec2 */
+
+.sec2{
+  background-image: url(background2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+
+}
+
+.sec2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
+}
+
+.text-sec2{
+  width: 60%;
+  text-align: center;
+  color: white;
+  padding: 60px;
+}
+
+.text-sec2 h2{
+  font-size: 32px;
+  font-family: "horizon", sans-serif;
+  
+}
+
+.text-sec2 p{
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.chat-bot{
+  width: 400px;
+  text-align: center;
+  border: 1px solid #68BBE3;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #00306070;
+
+
+}
+
+.chat-bot img{
+  margin-top: 30px;
+  width: 150px;
+}
+
+.chat-bot h2{
+  font-size: 30px;
+  font-family: "horizon", sans-serif;
+  color: #68BBE3;;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.chat-bot p{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.chat-bot button{
+  display: block;
+  padding: 10px;
+  font-family: 'horizon', sans-serif;
+  font-size: 20px;
+  background-color: #68BBE3;
+  color: #ffffff;
+  border-radius: 9px;
+  margin: auto;
+  margin-bottom: 66px;
+  margin-top: 30px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* estilização da sec3 */
+
+
+
+.sobre h2{
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  color: white;
+  font-family: "horizon", sans-serif;
+  
+  
+}
+
+.img img{
+  width: 330px;
+  border-radius: 50%;	
+  float: left;
+}
+
+.sec3 h2{
+  font-size: 50px;
+  font-family: "horizon", sans-serif;
+  color: #34B5DF;
+  margin-top: 66px;
+  text-align: center;
+}
+
+.cards-sec3{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.card-sec3{
+  border: 2px solid #34B5DF;
+  width: 600px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 30px;
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  min-height: 350px;
+  
+
+}
+
+.card-sec3 h3{
+  font-size: 28px;
+  font-family: "horizon", sans-serif;
+  margin-top: 11px;
+  margin-bottom: 20px;
+  color: #003060;
+}
+
+.card-sec3 p{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+/* resposividade */
+
+
+
+@media screen and (max-width: 900px){
+  .sec1 .cards{
+     flex-direction: column ;
+     justify-content: center;
+
+     
+ }
+ .sec1 .cards .card{
+     margin: auto;
+     width: 80%;
+     
+ }
+}
+
+@media screen and (max-width: 800px) {
+  
+ .text-header h1{
+     font-size: 5vmin;
+ }
+
+ .text-sec2 h2{
+     font-size: 26px;
+     font-family: "horizon", sans-serif;
+ }
+
+ 
+
+.text-sec2{
+ width: 100%;
+ padding: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 1050px) {
+ .text-sec2{
+     width: 100%;
+     padding: 20px;
+ }
+ 
+}

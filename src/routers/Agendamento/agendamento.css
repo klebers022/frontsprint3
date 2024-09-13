@@ -1,0 +1,40 @@
+.agendamento{
+ width: 90%;
+ margin: auto;
+}
+
+.agendamento h1{
+    font-size: 3rem;
+    color: #34B5DF;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.agendamento p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.map{
+    width: 100%;
+    height: 400px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.oficinas{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+
+
+}
