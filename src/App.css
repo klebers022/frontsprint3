@@ -317,11 +317,25 @@
      width: 80%;
      
  }
+ .text-header{
+  width: 100%;
+  text-align: center;
+  
+}
 }
 
 @media screen and (max-width: 800px) {
+
+  .text-header{
+    width: 100%;
+    text-align: center;
+    
+  }
   
  .text-header h1{
+     font-size: 7vmin;
+ }
+ .text-header p{
      font-size: 5vmin;
  }
 

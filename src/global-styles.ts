@@ -9,6 +9,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         font-family: 'Roboto', sans-serif;
+        display: flex;
+  flex-direction: column;
+  min-height: 100vh;
        
     }
     a {

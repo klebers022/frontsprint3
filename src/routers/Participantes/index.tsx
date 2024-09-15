@@ -1,6 +1,7 @@
 import React from "react";
 import "./participantes.css";
-import { Participante } from "../../Types";
+import { Participante } from "../../types";
+
 
 const participantes: Participante[] = [
     {
@@ -87,8 +88,14 @@ const participantes: Participante[] = [
             <ParticipantCard key={participante.id} participante={participante} />
           ))}
         </div>
+
+         
       </div>
+
+      
     );
   };
+
+  
   
   export default App;
