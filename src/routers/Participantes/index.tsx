@@ -10,7 +10,7 @@ const participantes: Participante[] = [
       rm: "558637",
       github: "https://github.com/GThomaz03",
       redesSociais: {
-        instagram: "https://instagram.com/gthomaz03",
+        instagram: "https://instagram.com/gabs.t_",
         linkedin: "https://www.linkedin.com/in/joaosilva",
       },
       foto: "public\\gabriel.png", // URL da foto
@@ -22,7 +22,7 @@ const participantes: Participante[] = [
       github: "https://github.com/klebers022",
       redesSociais: {
         instagram: "https://instagram.com/klebers022",
-        linkedin: "https://www.linkedin.com/in/mariaoliveira",
+        linkedin: "https://www.linkedin.com/in/kleberdasilva-/",
       },
       foto: "public\\kleber.png", // URL da foto
     },
@@ -30,10 +30,10 @@ const participantes: Participante[] = [
       id: 3,
       nome: "Pedro Dovigo",
       rm: "556491",
-      github: "https://github.com/PedroDovigo",
+      github: "https://github.com/pedro.dovigo",
       redesSociais: {
         instagram: "https://instagram.com/pedrodovigo",
-        linkedin: "https://www.linkedin.com/in/pedrosantos",
+        linkedin: "www.linkedin.com/in/pedrodovigo",
       },
       foto: "public\\pedro.png", // URL da foto
     },
