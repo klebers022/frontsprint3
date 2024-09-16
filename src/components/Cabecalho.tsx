@@ -17,9 +17,11 @@ export default function Cabecalho() {
   return (
     <Cabecalho1>
       <img src="logo-helpcar (1).png" alt="logo helpcar" />
-      <h1 onClick={closeMenu}>HelpCar</h1>
+        <Link to={"/"}>
+          <h1>HelpCar</h1>
+        </Link>
       <button className="menu-toggle" onClick={toggleMenu}>
-        {isMenuOpen ? <FaTimes /> : <FaBars />} {/* Ícones de abrir e fechar */}
+        {isMenuOpen ? <FaTimes /> : <FaBars />} 
       </button>
       <nav>
         <ul className={isMenuOpen ? "active" : ""}>

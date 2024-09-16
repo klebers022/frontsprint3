@@ -21,6 +21,7 @@ export const Cabecalho1 = styled.header`
     margin: 0;
     cursor: pointer;
     transition: all 0.3s;
+    font-family: 'arial';
   }
 
   h1:hover {

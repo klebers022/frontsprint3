@@ -1,10 +1,22 @@
 import { createGlobalStyle } from "styled-components";
 
+
+
 export const GlobalStyle = createGlobalStyle`
+
+    @font-face {
+        font-family:'horizon';
+        src: url(horizon.otf);
+    }
+
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
+    }
+    h1{
+        font-family: 'horizon';
         
     }
     body {

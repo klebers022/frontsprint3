@@ -90,7 +90,7 @@
     text-align: center;
     margin-top: 66px;
     font-size: 5vmin;
-    color: var(--primary-color);
+    color: #34B5DF;
     font-family: "horizon", sans-serif;
     
     
@@ -128,6 +128,7 @@
   .card h3{
     font-size: 25px;
     font-family: "horizon", sans-serif;
+    
     margin-top: 11px;
     margin-bottom: 20px;
   }

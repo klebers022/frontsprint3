@@ -13,28 +13,45 @@
 
 .agendamento p{
     font-size: 1.2rem;
-    text-align: left;
+    text-align: center;
 }
 
 
 .map{
-    width: 100%;
+    
     height: 400px;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    align-items: center;
-    justify-content: center;
+   
+    
     display: flex;
+    
 }
 
 .oficinas{
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 2rem;
     flex-wrap: wrap;
+   
 
 
+}
+.cal{
+    
+  
+    display: flex;
+    
+   
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+    
+}
+
+.container-agendamento{
+    min-height: 100vh;
 }

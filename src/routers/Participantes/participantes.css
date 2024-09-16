@@ -13,8 +13,9 @@
 
 .title {
   text-align: center;
-  color: #003060;
+  color: #34B5DF;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .participant-list {
@@ -31,7 +32,9 @@
   width: 250px;
   max-width: 250px;
   text-align: center;
-  margin: 0 auto;
+  margin:  auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.726);
+  
 }
 
 .participant-photo {

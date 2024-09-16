@@ -11,9 +11,9 @@ const participantes: Participante[] = [
       github: "https://github.com/GThomaz03",
       redesSociais: {
         instagram: "https://instagram.com/gabs.t_",
-        linkedin: "https://www.linkedin.com/in/joaosilva",
+        linkedin: "https://www.linkedin.com/in/gabrielthomaz/",
       },
-      foto: "public\\gabriel.png", // URL da foto
+      foto: "public\\gabriel.png", 
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const participantes: Participante[] = [
         instagram: "https://instagram.com/klebers022",
         linkedin: "https://www.linkedin.com/in/kleberdasilva-/",
       },
-      foto: "public\\kleber.png", // URL da foto
+      foto: "public\\kleber.png", 
     },
     {
       id: 3,
@@ -33,9 +33,9 @@ const participantes: Participante[] = [
       github: "https://github.com/pedro.dovigo",
       redesSociais: {
         instagram: "https://instagram.com/pedrodovigo",
-        linkedin: "www.linkedin.com/in/pedrodovigo",
+        linkedin: "https://www.linkedin.com/in/pedrodovigo/",
       },
-      foto: "public\\pedro.png", // URL da foto
+      foto: "public\\pedro.png",
     },
   ];
   
