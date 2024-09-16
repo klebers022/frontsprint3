@@ -10,7 +10,7 @@ declare global {
 
 export default function Home() {
   useEffect(() => {
-    let chatInstance: any = null;
+    
 
     // Configurar as opções do Watson Assistant
     window.watsonAssistantChatOptions = {
@@ -19,7 +19,7 @@ export default function Home() {
       serviceInstanceID: "664e0483-55e7-43ef-b5c5-5a0f4b64c4e3",
       onLoad: async (instance: any) => {
         await instance.render(); // Renderiza o chatbot
-        chatInstance = instance; // Guarda a instância do chat
+  
         window.watsonChatInstance = instance; // Armazena globalmente se necessário
       },
     };
